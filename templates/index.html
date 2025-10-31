@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Clientes</title>
+    <style>
+        body { font-family: Arial; background: #eef; padding: 20px; }
+        form { background: #fff; padding: 20px; border-radius: 15px; max-width: 400px; margin: auto; }
+        input { width: 95%; padding: 10px; margin: 6px 0; }
+        button { background: green; color: white; padding: 10px; border: none; cursor: pointer; }
+        button:hover { background: darkgreen; }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Registrar Cliente</h2>
+   
+    <form method="POST">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="correo" placeholder="Correo" required>
+        <input type="text" name="telefono" placeholder="Teléfono" required>
+        <button type="submit">Registrar</button>
+    </form>
+    <center><button style="text-align:center;"><p><a href="/clientes">Ver lista de clientes</a></p></button></center>
+    
+</body>
+</html>
